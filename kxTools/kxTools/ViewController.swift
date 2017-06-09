@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let str = "<a href=\"javascript:;\" class=\"mfb67_4 bf-open-btn\">打开</a>"
+        let pat = "<a href=\"(.*?)\" .*?>(.*?)</a>"
+        let rel = str.kx_GetHref(str: str, pattern: pat, reID: 2)
+        print(rel)
     }
 
     override func didReceiveMemoryWarning() {

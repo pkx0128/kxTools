@@ -13,6 +13,7 @@
 		4FF6297C1EEA7B3800E3AD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF6297B1EEA7B3800E3AD42 /* Assets.xcassets */; };
 		4FF6297F1EEA7B3800E3AD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF6297D1EEA7B3800E3AD42 /* LaunchScreen.storyboard */; };
 		4FF629881EEA7B9E00E3AD42 /* getUIScreenAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF629871EEA7B9E00E3AD42 /* getUIScreenAttribute.swift */; };
+		4FF6298A1EEA872B00E3AD42 /* extension-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF629891EEA872B00E3AD42 /* extension-String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4FF6297E1EEA7B3800E3AD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FF629801EEA7B3800E3AD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF629871EEA7B9E00E3AD42 /* getUIScreenAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getUIScreenAttribute.swift; sourceTree = "<group>"; };
+		4FF629891EEA872B00E3AD42 /* extension-String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extension-String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4FF629871EEA7B9E00E3AD42 /* getUIScreenAttribute.swift */,
+				4FF629891EEA872B00E3AD42 /* extension-String.swift */,
 			);
 			name = KX_Tools;
 			path = kxTools/KX_Tools;
@@ -152,6 +155,7 @@
 			files = (
 				4FF629771EEA7B3800E3AD42 /* ViewController.swift in Sources */,
 				4FF629751EEA7B3800E3AD42 /* AppDelegate.swift in Sources */,
+				4FF6298A1EEA872B00E3AD42 /* extension-String.swift in Sources */,
 				4FF629881EEA7B9E00E3AD42 /* getUIScreenAttribute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
